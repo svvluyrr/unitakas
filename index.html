@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SÜ-Takas | Sinop Üniversitesi Öğrenci Pazaryeri (Resmi)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-image-overlay"></div>
+
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="brand-container">
+                <img src="https://upload.wikimedia.org/wikipedia/tr/thumb/8/8b/Sinop_%C3%9Cniversitesi_logosu.png/220px-Sinop_%C3%9Cniversitesi_logosu.png" alt="SÜ Amblem" class="uni-logo">
+                <div class="logo-text">
+                    <span class="uni-name">SİNOP ÜNİVERSİTESİ</span>
+                    <span class="app-name">UNITAKAS <span class="beta-tag">PRO</span></span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#"><i class="fas fa-home"></i> Panel</a></li>
+                <li><a href="#"><i class="fas fa-book"></i> Akademik</a></li>
+                <li><a href="#"><i class="fas fa-tags"></i> İlanlarım</a></li>
+                <li class="notification-icon"><a href="#"><i class="fas fa-bell"></i><span class="badge">3</span></a></li>
+                <li class="user-profile">
+                    <img src="https://via.placeholder.com/40" alt="User" class="avatar">
+                    <span>Ahmet Y.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="super-container">
+        <aside class="advanced-filter-panel">
+            <h3><i class="fas fa-filter"></i> Gelişmiş Filtre</h3>
+            <div class="filter-group">
+                <label>Fakülte / Yüksekokul</label>
+                <select>
+                    <option>Eğitim Fakültesi</option>
+                    <option>Mühendislik ve Mimarlık Fak.</option>
+                    <option>Su Ürünleri Fakültesi</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Durum</label>
+                <div class="radio-group">
+                    <input type="radio" id="new" name="status" checked><label for="new">Sıfır Ayarında</label>
+                    <input type="radio" id="used" name="status"><label for="used">Az Kullanılmış</label>
+                </div>
+            </div>
+            <div class="filter-group">
+                <label>Fiyat Aralığı (TL)</label>
+                <div class="range-slider">
+                    <input type="number" placeholder="Min"> - <input type="number" placeholder="Max">
+                </div>
+            </div>
+            <button class="btn-apply-filter">Filtrele</button>
+            <div class="uni-stats">
+                <div class="stat-item"><i class="fas fa-user-graduate"></i> 3.5k+ Aktif Öğrenci</div>
+                <div class="stat-item"><i class="fas fa-handshake"></i> 12k+ Takas</div>
+            </div>
+        </aside>
+
+        <section class="main-content">
+            <div class="hero-premium">
+                <div class="hero-text">
+                    <h1>SÜ Kampüs Ekonomisi</h1>
+                    <p>Fakülte arkadaşlarınla güvenli, hızlı ve kurumsal takas deneyimi.</p>
+                </div>
+                <div class="hero-search-advanced">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Ders notu, laboratuvar önlüğü, teknik çizim masası ara...">
+                    <button class="btn-premium-search">Keşfet</button>
+                </div>
+            </div>
+
+            <div class="section-header">
+                <h2><i class="fas fa-fire"></i> Son Eklenen Premium İlanlar</h2>
+                <a href="#" class="view-all">Tümünü Gör</a>
+            </div>
+
+            <div class="premium-grid">
+                <div class="premium-card">
+                    <div class="card-image-wrapper">
+                        <img src="https://via.placeholder.com/300x200/2563eb/ffffff?text=Cortex+M4+Kit" alt="Product">
+                        <span class="uni-tag">Mühendislik Fak.</span>
+                    </div>
+                    <div class="card-premium-details">
+                        <div class="seller-info">
+                            <img src="https://via.placeholder.com/30/e2e8f0/334155?text=S" alt="Satar">
+                            <span>Sema G. (Dönem 3)</span>
+                        </div>
+                        <h3>ARM Cortex M4 Geliştirme Kiti</h3>
+                        <p class="description">Sadece 1 dönem kullanıldı, kutusu ve kabloları tam.</p>
+                        <div class="card-footer">
+                            <span class="premium-price">1.250 TL</span>
+                            <button class="btn-premium-action">Teklif Ver</button>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+        </section>
+    </main>
+
+    <footer class="uni-footer">
+        <p>© 2024 Sinop Üniversitesi Bilgi İşlem Daire Başkanlığı & Bilgisayar Mühendisliği Bölümü İşbirliğiyle</p>
+    </footer>
+
+</body>
+</html>
